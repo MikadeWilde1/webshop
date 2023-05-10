@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size:62.5%
+}
+
+header {
+    height: 6rem;
+    width: 100%;
+    background: black;
+}
+
+body{
+    color:white
+}
+
+/* header  */
+
+nav {
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding-left: 4rem;
+}
+
+nav>ul>li {
+    width: 100%;
+    height: 100%;
+    font-size:3rem
+}
+
+nav>ul>li>a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 6rem;
+    text-align: center;
+}
+
+nav>ul>li>a:visited,
+nav>ul>li>a:link {
+    color: white;
+    text-decoration: none;
+}
+
+ /* images */
+
+.bigFigure {
+    width: 100%;
+    height: 90vh;
+}
+
+.bigFigure>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: right;
+}
+
+.collections {
+    width: 100%;
+    padding: 4rem;
+}
+
+.collectionsList {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collectionsListItem {
+    width: 30rem;
+    height: 30rem;
+    background: black;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.collectionsListItem>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
