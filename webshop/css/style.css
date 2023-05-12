@@ -18,13 +18,15 @@ header {
 }
 
 body {
-    color: white
+    color: white;
+    grid-template-rows:repeat(12,1fr);
+    grid-template-columns:repeat(12,1fr);
 }
 
-.section--top{
-    grid-template-rows: 12;
-    grid-template-columns:12;
-}
+/* .section--top{
+    grid-template-rows:repeat(12,1fr);
+    grid-template-columns:repeat(12,1fr);
+} */
 
 /* header  */
 
@@ -46,7 +48,7 @@ nav>ul {
     align-items: center;
     height: 100%;
     gap: 3rem;
-    margin-right: 7rem;
+    margin-right: 3rem;
 }
 
 nav>ul>li {
@@ -110,7 +112,6 @@ nav>ul>li>a:link {
 .logo {
     height: 10rem;
     width: 100%;
-
 }
 
 .slogan {
