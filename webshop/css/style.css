@@ -109,9 +109,16 @@ nav>ul>li>a:link {
 
 .slogan {
     position: absolute;
-    top: 25%;
-    left:10%;
+    top: 30%;
+    left:26%;
     color: #e6ccff;
     font-size: 4rem;
-    ;
+}
+
+.knop--main{
+    position: absolute;
+    top: 50%;
+    left:27%;
+    color: #e6ccff;
+    font-size: 4rem;
 }
