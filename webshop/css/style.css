@@ -19,14 +19,11 @@ header {
 
 body {
     color: white;
-    grid-template-rows:repeat(12,1fr);
-    grid-template-columns:repeat(12,1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
 }
 
-/* .section--top{
-    grid-template-rows:repeat(12,1fr);
-    grid-template-columns:repeat(12,1fr);
-} */
+
 
 /* header  */
 
@@ -114,18 +111,79 @@ nav>ul>li>a:link {
     width: 100%;
 }
 
+/* .section--top{
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows:repeat(12,1fr);
+} */
+
 .slogan {
     position: absolute;
     top: 30%;
-    left:26%;
+    left: 26%;
     color: #e6ccff;
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
-.knop--main{
+.img2{
+    width:100%;
+}
+
+.section--2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.img--section--2 {
+    grid-column: 1/7;
+    grid-row: 1/7;
+    padding-top:4rem;
+    padding-left:4rem;
+}
+
+.heading-section--2{
+    position:absolute;
+    font-size:5rem;
+    top:110%;
+    left:60%;
+    color: #e6ccff;
+}
+
+.text-section--2{
+    position:absolute;
+    font-size:3rem;
+    top:130%;
+    left:60%;
+    color: #e6ccff;
+}
+
+button{
+    background-color: #e6ccff;
+}
+
+.button--main {
     position: absolute;
     top: 50%;
-    left:27%;
-    color: #e6ccff;
+    left: 27%;
+    color: white;
     font-size: 4rem;
+    border-radius: 10px;
+    border:none;
+    width:25rem;
+    height:6rem;
+    cursor:pointer;
+}
+
+.button--2 {
+    position: absolute;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    border:none;
+    width:25rem;
+    height:6rem;
+    cursor:pointer;
+    top:150%;
+    left:60%;
 }
