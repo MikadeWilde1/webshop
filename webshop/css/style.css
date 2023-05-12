@@ -14,10 +14,16 @@ header {
     height: 10rem;
     width: 100%;
     background: black;
+
 }
 
 body {
     color: white
+}
+
+.section--top{
+    grid-template-rows: 12;
+    grid-template-columns:12;
 }
 
 /* header  */
