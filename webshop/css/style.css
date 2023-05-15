@@ -125,7 +125,7 @@ nav>ul>li>a:link {
     font-size: 6rem;
 }
 
-.img2{
+img{
     width:100%;
 }
 
@@ -143,19 +143,20 @@ nav>ul>li>a:link {
 }
 
 .heading-section--2{
-    position:absolute;
     font-size:5rem;
-    top:110%;
-    left:60%;
     color: #e6ccff;
+    grid-column: 8/12;
+    grid-row:1/2;
+    padding-top:5rem;
 }
 
 .text-section--2{
-    position:absolute;
     font-size:3rem;
-    top:130%;
-    left:60%;
+    grid-column: 8/11;
+    grid-row: 2/5;
     color: #e6ccff;
+    padding-top:2rem;
+    padding-bottom:3rem;
 }
 
 button{
@@ -175,8 +176,7 @@ button{
     cursor:pointer;
 }
 
-.button--2 {
-    position: absolute;
+.button-section--2 {
     color: white;
     font-size: 4rem;
     border-radius: 10px;
@@ -184,6 +184,14 @@ button{
     width:25rem;
     height:6rem;
     cursor:pointer;
-    top:150%;
-    left:60%;
+    grid-column: 8/12;
+    grid-row:5/6;
+}
+
+.img2--section--2{
+    grid-column: 1/4;
+    grid-row: 7/12;
+    padding-top:4rem;
+    padding-left:4rem;
+    padding-bottom:4rem;
 }
