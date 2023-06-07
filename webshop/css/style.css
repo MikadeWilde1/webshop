@@ -308,3 +308,39 @@ grid-row: 7/12; */
     width: 100%;
     height: 100%;
 }
+
+.text--stappenplan-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.text--stappenplan-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.text--stappenplan-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.text--stappenplan-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
