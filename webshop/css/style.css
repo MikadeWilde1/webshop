@@ -168,10 +168,16 @@ img {
 .section--3 {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    height: 120rem;
+    grid-template-rows: repeat(8, 1fr);
+    height: 80rem;
 }
 
+.section--4 {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 80rem;
+}
 
 .img2 {
     grid-column: 1/14;
@@ -281,14 +287,16 @@ grid-row: 7/12; */
 
 .stappenplan1 {
     grid-column: 4/7;
-    grid-row: 2/4;
+    grid-row: 1/4;
     height: 100%;
+    padding-top: 2rem;
 }
 
 .stappenplan2 {
     grid-column: 11/14;
-    grid-row: 2/5;
+    grid-row: 1/4;
     height: 100%;
+    padding-top: 2rem;
 }
 
 .stappenplan3 {
@@ -309,7 +317,7 @@ grid-row: 7/12; */
     height: 100%;
 }
 
-.text--stappenplan-1{
+.text--stappenplan-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,7 +326,7 @@ grid-row: 7/12; */
     padding-top: 1rem;
 }
 
-.text--stappenplan-2{
+.text--stappenplan-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -327,7 +335,7 @@ grid-row: 7/12; */
     padding-top: 1rem;
 }
 
-.text--stappenplan-3{
+.text--stappenplan-3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,11 +344,77 @@ grid-row: 7/12; */
     padding-top: 1rem;
 }
 
-.text--stappenplan-4{
+.text--stappenplan-4 {
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
     font-size: 2rem;
     padding-top: 1rem;
+}
+
+.highlighted-img {
+    grid-column: 12/21;
+    grid-row: 1/11;
+    height: 100%;
+    padding-top: 4rem;
+    padding-right: 2rem;
+    border-radius: 10%;
+}
+
+.highlightimg {
+    border-radius: 3%;
+}
+
+
+.highlight-heading {
+    grid-column: 2/11;
+    grid-row: 2/4;
+    color: black;
+    font-size: 9.2rem;
+}
+
+.highlight-description {
+    grid-column: 2/11;
+    grid-row: 4/6;
+    color: black;
+    font-size: 5rem;
+}
+
+.highlight-description-2 {
+    grid-column: 2/11;
+    grid-row: 6/8;
+    color: black;
+    font-size: 5rem;
+    padding-top: 5rem;
+}
+
+.highlight-button {
+    grid-column: 2/11;
+    grid-row: 9/12;
+    font-size: 10rem;
+    background-color: #e6ccff;
+    border-radius: 2rem;
+    border-color: #e6ccff;
+    transition: 1s;
+}
+
+.text--button {
+    height: 100%;
+    align-items: center;
+    color: white;
+    transition: 1s;
+}
+
+.center{
+    align-items: center;
+    height: 100%;
+}
+
+.highlight-button:hover {
+    background-color: white;
+}
+
+.text--button:hover {
+    color: #e6ccff;
 }
