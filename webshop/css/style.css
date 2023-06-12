@@ -179,6 +179,13 @@ img {
     height: 80rem;
 }
 
+.section--5{
+    display:grid;
+    grid-template-columns:repeat(20,1fr);
+    grid-template-rows:repeat(12,1fr);
+    height:80rem;
+}
+
 .img2 {
     grid-column: 1/14;
     grid-row: 1/8;
@@ -396,14 +403,14 @@ grid-row: 7/12; */
     background-color: #e6ccff;
     border-radius: 2rem;
     border-color: #e6ccff;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .text--button {
     height: 100%;
     align-items: center;
     color: white;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .center{
