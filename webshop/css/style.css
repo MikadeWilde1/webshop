@@ -570,3 +570,87 @@ footer {
 }
 
 
+@media screen and (max-width: 45rem){
+
+    .button--main{
+        display:none;
+    }
+
+    .button-section--2{
+        display:none;
+    }
+
+    .heading-section--2{
+        font-size:3rem;
+    }
+
+    .text-section--2{
+        font-size:2rem;
+    }
+
+    .ster{
+        display:none;
+    }
+
+    .review--text-1{
+        font-size:1rem;
+    }
+    .review--text-2{
+        font-size:1rem;
+    }
+    .review--text-3{
+        font-size:1rem;
+    }
+
+    .review--naam-1{
+        font-size:2rem;
+    }
+    .review--naam-2{
+        font-size:2rem;
+    }
+    .review--naam-3{
+        font-size:2rem;
+    }
+
+    .card--review-1{
+        height:35%
+    }
+    .card--review-2{
+        height:35%
+    }
+    .card--review-3{
+        height:35%
+    }
+
+    .highlight-button{
+        display:none;
+    }
+    .card--button{
+        display:none;
+    }
+
+    .highlight-heading{
+        font-size:3rem;
+    }
+
+    .highlight-description{
+        font-size:2rem;
+    }
+
+    .highlight-description-2{
+        font-size:2rem;
+    }
+
+    .text--stappenplan-1{
+        font-size:1rem;
+    }
+    .text--stappenplan-2{
+        font-size:1rem;
+    }
+    .text--stappenplan-3{
+        font-size:1rem;
+    }
+    .text--stappenplan-4{
+        font-size:1rem;
+    }
+}

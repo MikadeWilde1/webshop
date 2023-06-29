@@ -239,3 +239,13 @@ footer {
         animation-duration: 0s;
     }
 }
+
+@media screen and (max-width: 45rem){
+    .product-name{
+        font-size:4rem;
+    }
+
+    .supreme-beschrijving{
+        font-size:1rem;
+    }
+}

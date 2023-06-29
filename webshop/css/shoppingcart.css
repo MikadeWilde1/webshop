@@ -110,9 +110,9 @@ body{
     list-style: none;
     background: white;
     border-radius: 2rem;
-    box-shadow: 0.1px 0.1px 6px 0.1px rgb(236, 93, 236);
     transition: 0.5s transform;
-    border: 1px solid black;
+    border: 1.5px solid black;
+    border-color:purple;
 }
 
 .card:hover {
@@ -135,7 +135,7 @@ body{
 }
 
 .card--4 {
-    grid-row: 16/19;
+    grid-row: 14/19;
     grid-column: 3/19;
 }
 
@@ -193,3 +193,8 @@ footer {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 45rem){
+    .card--4{
+        display:none;
+    }
+}
