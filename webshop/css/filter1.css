@@ -146,6 +146,30 @@ main{
     object-fit: contain;
 }
 
+footer {
+    height: 30rem;
+    width: 100%;
+    background: #A492B2;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    font-size: 4rem;
+}
+
+.footer--hover{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap:4rem;
+}
+
+.footer--hover:hover{
+    text-decoration: underline;
+}
+
 @keyframes away {
     from{
         transform: scaleX(1);

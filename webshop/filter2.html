@@ -1,23 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filter</title>
-    <link rel="stylesheet" href="css/palmangels.css">
-    <script src="js/filter1.js" defer></script>
+    <link rel="stylesheet" href="css/filter2.css">
+    <script src="js/filter2.js" defer></script>
+    <title></title>
 </head>
 <body>
-    <header id="top">
-        <nav>
-            <ul>
-                <div class="left">
-                    <a href="index.html"><img class="logo" src="img/logo-webshop.jpg" alt=""></a>
-                </div>
-                <!-- <li class="active"><a href="index.html">Home</a></li> -->
-                <li><a href="filter1.html">filter1</a></li>
-                <li><a href="filter2.html">filter2</a></li>
-            </ul>
-        </nav>
-    </header>
+  <main>
+      <header id="top">
+          <nav>
+              <ul>
+                  <div class="left">
+                      <a href="index.html"><img class="logo" src="img/logo-webshop.jpg" alt=""></a>
+                  </div>
+                  <!-- <li class="active"><a href="index.html">Home</a></li> -->
+                  <li><a href="filter1.html">filter1</a></li>
+                  <li><a href="filter2.html">filter2</a></li>
+              </ul>
+          </nav>
+      </header>
+    <h1>Product Filter</h1>
+
+    <div class="filter-container">
+      <label for="category">Select Category:</label>
+      <select id="category">
+        <option value="all">All</option>
+        <option value="boven-1000">boven de €1000,-</option>
+        <option value="onder-1000">onder de €1000,-</option>
+        <option value="onder-500">onder de €500,-</option>
+      </select>
+    </div>
+
+    <div id="product-list">
+      <div class="product boven-1000"><img class="producten product-1" src="img/supreme-sweater.webp" alt=""></div>
+      <div class="product boven-1000"><img class="producten product-2" src="img/supreme-sweater-blauw.webp" alt=""></div>
+      <div class="product boven-1000"><img class="producten product-3" src="img/supreme-sweater-green.webp" alt=""></div>
+      <div class="product onder-500"><img class="producten product-4" src="img/16865674_35413191_1000.webp" alt=""></div>
+      <div class="product onder-500"><img class="producten product-5" src="img/16865672_33538197_1000.webp" alt=""></div>
+      <div class="product onder-500"><img class="producten product-6" src="img/10095928OO_14_f.avif" alt=""></div>
+      <div class="product onder-1000"><img class="producten product-7" src="img/palmangels-hoodie.webp" alt=""></div>
+      <div class="product onder-1000"><img class="producten product-8" src="img/palmangels-hoodie-wit.webp" alt=""></div>
+    </div>
+  </main>
+</body>
+<footer>
+  <p>website by Mika de Wilde</p>
+  <a class="footer--hover" href="">+06123456789</a>
+  <a class="footer--hover" href="">contactweg 36</a>
+  <a class="footer--hover" href="">clothing@dewilde.com</a>
+</footer>
+<footer>
+</html>

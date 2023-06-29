@@ -67,3 +67,102 @@ nav>ul>li>a:link {
     height: 10rem;
     width: 100%;
 }
+
+.filter-container {
+    margin-bottom: 10px;
+  }
+  
+  .product {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+main{
+    display:grid;
+    grid-template-columns:repeat(21,1fr);
+    grid-template-rows:repeat(12,1fr);
+}
+
+.product{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.product-1{
+    list-style: none;
+    width: 25rem;
+    height: 30rem;
+    transition: .2s;
+    flex-grow: 1;
+}
+
+.producten:hover{
+    transform: scale(1.02) translateY(-0.7rem);
+    cursor: pointer;
+}
+
+.producten{
+    height:100%;
+    width:100%;
+}
+
+.product-1{
+    grid-column:1/10;
+    grid-row:1/10;
+}
+
+.product-2{
+    
+}
+
+.product-3{
+    
+}
+
+.product-4{
+    
+}
+
+.product-5{
+    
+}
+
+.product-6{
+    
+}
+
+.product-7{
+    
+}
+
+.product-8{
+    
+}
+
+footer {
+    height: 30rem;
+    width: 100%;
+    background: #A492B2;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    font-size: 4rem;
+}
+
+.footer--hover{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap:4rem;
+}
+
+.footer--hover:hover{
+    text-decoration: underline;
+}
