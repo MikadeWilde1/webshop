@@ -18,7 +18,6 @@ header {
 }
 
 body {
-    color: white;
 }
 
 
@@ -72,15 +71,92 @@ nav>ul>li>a:link {
 main{
     display: grid;
     grid-template-columns: repeat(21, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    height: 70rem
+    grid-template-rows: repeat(14, 1fr);
+    height: 100rem;
+    background-color:#FFF6FE;
 }
 
 .zwart{
-    grid-column: ;
-
+    grid-column:2/12;
+    grid-row:1/12;
+    padding-top:2rem;
 }
 
 .img-zwart{
-    size:50%;
+    height:100%;
+    width:100%;
+}
+
+.add-to-cart--button{
+    grid-column:14/20;
+    grid-row:8/10;
+    background:white;
+    font-size:4rem;
+    color:black;
+}
+
+.text--button {
+    color: black;
+}
+
+.add-to-cart--button:hover {
+    background-color: #e6ccff;
+    border:none;
+    border-radius: 2rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.card--button {
+    grid-column: 2/11;
+    grid-row: 9/12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart--button:hover>.text--button{
+    color: white;
+    transition:0.4s;
+    cursor: pointer;
+}
+
+.product-name{
+    grid-column:14/24;
+    grid-row:2/4;
+    font-size:7rem;
+}
+
+.img-black{
+    width:6rem;
+    height:6rem;
+    grid-column:14/15;
+    grid-row:4/5;
+}
+
+.img-blue{
+    width:6rem;
+    height:6rem;
+    grid-column:15/16;
+    grid-row:4/5;
+}
+
+.img-green{
+    width:6rem;
+    height:6rem;
+    grid-column:16/17;
+    grid-row:4/5;
+}
+
+.zwart-prijs{
+    grid-column:14/18;
+    grid-row:6/7;
+    font-size:5rem;
+}
+
+.supreme-beschrijving{
+    grid-column:3/20;
+    grid-row:13/15;
+    font-size:2rem;
+    padding-top:2rem;
 }
