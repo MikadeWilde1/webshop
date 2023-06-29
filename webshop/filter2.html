@@ -9,9 +9,8 @@
     <script src="js/filter2.js" defer></script>
     <title></title>
 </head>
-<body>
-  <main>
-      <header id="top">
+<body>      
+  <header id="top">
           <nav>
               <ul>
                   <div class="left">
@@ -22,36 +21,41 @@
                   <li><a href="filter2.html">filter2</a></li>
               </ul>
           </nav>
-      </header>
-    <h1>Product Filter</h1>
-
-    <div class="filter-container">
-      <label for="category">Select Category:</label>
-      <select id="category">
-        <option value="all">All</option>
-        <option value="boven-1000">boven de €1000,-</option>
-        <option value="onder-1000">onder de €1000,-</option>
-        <option value="onder-500">onder de €500,-</option>
-      </select>
+  </header>
+  <main>
+    <div class="drop">
+        <section class="pricefilter">
+            <label for="price-filter">
+                <p class="indicator">
+                <p class="indicator">Prijsindicatie:</p>
+            </label>
+            <select id="price-filter">
+                <option id="prijs--all" value="all">alle prijzen</option>
+                <option id="prijs--mid" value="0-1000">onder de 1000</option>
+                <option id="prijs--hoog" value="1000-1500">boven 1000</option>
+            </select>
+        </section>
     </div>
+    <ul class="products">
+        <li class="product" data-category="supreme" data-category-price="1499"><img src="img/supreme-sweater.webp" alt=""></li>
+        <li class="product" data-category="supreme" data-category-price="1499"><img src="img/supreme-sweater-blauw.webp" alt=""></li>
+        <li class="product" data-category="supreme" data-category-price="1499"><img src="img/supreme-sweater-green.webp" alt=""></li>
+        <li class="product" data-category="off-white" data-category-price="499"><img src="img/16865674_35413191_1000.webp" alt=""></li>
+        <li class="product" data-category="off-white" data-category-price="499"><img src="img/16865672_33538197_1000.webp" alt=""></li>
+        <li class="product" data-category="palm-angels" data-category-price="899"><img src="img/palmangels-hoodie.webp" alt=""></li> 
+        <li class="product" data-category="palm-angels" data-category-price="899"><img src="img/palmangels-hoodie-wit.webp" alt=""></li>
+        <li class="product" data-category="palm-angels" data-category-price="899"><img src="img/palm-angels-grey.webp"alt=""></li>
+    
+    </ul>
+</main>
 
-    <div id="product-list">
-      <div class="product boven-1000"><img class="producten product-1" src="img/supreme-sweater.webp" alt=""></div>
-      <div class="product boven-1000"><img class="producten product-2" src="img/supreme-sweater-blauw.webp" alt=""></div>
-      <div class="product boven-1000"><img class="producten product-3" src="img/supreme-sweater-green.webp" alt=""></div>
-      <div class="product onder-500"><img class="producten product-4" src="img/16865674_35413191_1000.webp" alt=""></div>
-      <div class="product onder-500"><img class="producten product-5" src="img/16865672_33538197_1000.webp" alt=""></div>
-      <div class="product onder-500"><img class="producten product-6" src="img/10095928OO_14_f.avif" alt=""></div>
-      <div class="product onder-1000"><img class="producten product-7" src="img/palmangels-hoodie.webp" alt=""></div>
-      <div class="product onder-1000"><img class="producten product-8" src="img/palmangels-hoodie-wit.webp" alt=""></div>
-    </div>
-  </main>
 </body>
 <footer>
   <p>website by Mika de Wilde</p>
   <a class="footer--hover" href="">+06123456789</a>
   <a class="footer--hover" href="">contactweg 36</a>
   <a class="footer--hover" href="">clothing@dewilde.com</a>
+  <a class="footer--hover" href="">instagram</a>
 </footer>
 <footer>
 </html>

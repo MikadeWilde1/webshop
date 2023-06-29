@@ -8,3 +8,4 @@ button.addEventListener('click', function () {
         added.classList.toggle("fadeOut")
     }, 1000);
 })
+
