@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Card</title>
+    <link rel="stylesheet" href="css/shoppingcart.css">
+    <script src="https://kit.fontawesome.com/b273e788b2.js" crossorigin="anonymous"></script>
+    <script src="js/shoppingcart.js" defer></script>
+</head>
+<body>
+    <section class="checkout a-popup" id="checkoutWindow">
+        <ul class="checkout__list">
+            <li class="checkout__listItem">
+                <img class="checkout__image" src="img/supreme-sweater.webp" alt="">
+                <p class="checkout__title">zwart</p>
+                <p id="js--zwart" class="checkout__amount"></p>
+            </li>
+            <li class="checkout__listItem">
+                <img class="checkout__image" src="img/supreme-sweater-blauw.webp" alt="">
+                <p class="checkout__title">blauw</p>
+                <p id="js--blauw" class="checkout__amount"></p>
+            </li>
+            <li class="checkout__listItem">
+                <img class="checkout__image" src="img/supreme-sweater-green.webp" alt="">
+                <p class="checkout__title">groen</p>
+                <p id="js--groen" class="checkout__amount"></p>
+            </li>
+        </ul>
+    </section>
+
+    <article class="modal" id="js--shoppingModal">✔added to cart</article>
+    <button class="shoppingCart" id="checkoutButton">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-arrow-left" style="display: none;"></i>
+        <div class="shoppingCart__message">0</div>
+    </button>
+    <main>
+        <ul class="sweaters">
+            <li class="sweaters__sweater a-popup">
+                <figure class="sweaters__figure">
+                    <img class="sweaters__image" src="img/supreme-sweater.webp" alt="">
+                </figure>
+                <section class="sweaters__body"><h2 class="sweaters__h2">€999</h2>
+                    <h3 class="sweaters__h3">zwart</h3>
+                    <div class="sweaters__stars">★★★★★</div>
+                    <button data-product="zwart" class="sweaters__button">Add to Card</button>
+                </section>
+            </li>
+            <l class="sweaters__sweater a-popup">
+                <figure class="sweaters__figure">
+                    <img class="sweaters__image" src="img/supreme-sweater-blauw.webp" alt="">
+                </figure>
+                <section class="sweaters__body">
+                    <h2 class="sweaters__h2">€999</h2>
+                    <h3 class="sweaters__h3">blauw</h3>
+                    <div class="sweaters__stars">★★★★★</div>
+                    <button data-product="blauw" class="sweaters__button">Add to Card</button>
+                </section>
+            </l>
+            <li class="sweaters__sweater sweaters__sweater--third a-popup">
+                <figure class="sweaters__figure">
+                    <img class="sweaters__image" src="img/supreme-sweater-green.webp" alt="">
+                </figure>
+                <section class="sweaters__body">
+                    <h2 class="sweaters__h2">€999</h2>
+                    <h3 class="sweaters__h3">groen</h3>
+                    <div class="sweaters__stars">★★★★★</div>
+                    <button data-product="groen" class="sweaters__button">Add to Card</button>
+                </section>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
