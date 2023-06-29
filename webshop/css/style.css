@@ -570,34 +570,3 @@ footer {
 }
 
 
-
-/* 
-.highlight-button {
-    grid-column: 2/11;
-    grid-row: 9/12;
-    font-size: 10rem;
-    background-color: #e6ccff;
-    border-radius: 2rem;
-    border-color: #e6ccff;
-    transition: 0.7s;
-}
-
-.text--button {
-    height: 100%;
-    align-items: center;
-    color: white;
-    transition: 0.7s;
-}
-
-.center{
-    align-items: center;
-    height: 100%;
-}
-
-.highlight-button:hover {
-    background-color: white;
-}
-
-.text--button:hover {
-    color: #e6ccff;
-} */

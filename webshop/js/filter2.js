@@ -7,8 +7,8 @@ const Prijsfilter = document.getElementById("price-filter");
 
 setInterval(function () {
     document.getElementsByTagName("body")[0].style.overflow = "auto";
-}, 1500);//laat scrollen na 1.5s
-window.scrollTo(0, 0);//zet window naar boven bij refresh
+}, 1500)
+window.scrollTo(0, 0);
 
 
 Prijsfilter.addEventListener('change', function () {
